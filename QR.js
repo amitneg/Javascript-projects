@@ -11,7 +11,7 @@ function generateQR() {
   } else {
     qrText.classList.add("error");
     setTimeout(() => {
-      qrText.classList.add("error");
+      qrText.classList.remove("error");
     }, 1000); 
   }
   qrText.value="";
